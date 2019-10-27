@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development nodemon ./app.js",
     "prod": "cross-env NODE_ENV=production pm2 start app.js --no-daemon",
     "deploy": "cross-env NODE_ENV=production pm2 deploy ecosystem.json production setup",
-    "update": "cross-env NODE_ENV=production pm2 deploy ecosystem.json production update"
+    "update": "cross-env NODE_ENV=production pm2 deploy production update"
   },
   "keywords": [],
   "author": "",
