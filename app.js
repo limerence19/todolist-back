@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const cors = require('koa2-cors');
 const bodyParser = require('koa-bodyparser');
 
-const env = process.env.NODE_ENV;
+const env = process.env.NODE_ENV || "development";
 
 mongoose.connect(config[env].db, {
     useNewUrlParser: true
