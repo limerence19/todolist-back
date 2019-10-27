@@ -5,6 +5,6 @@ module.exports = {
   },
   production: {
     port: 3300, // node application port
-    db: 'mongodb://todolist_runner:F**kcherish@101.132.68.200:18955/todolist'
+    db: 'mongodb://todolist_runner:F**kcherish@127.0.0.1:18955/todolist'
   }
 }
